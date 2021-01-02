@@ -1,3 +1,7 @@
+#This program receives data from a converted pdf file and then outputs selected data to a txt
+#file so that it can easily be added to an excel spreadsheet. It was used to quickly and easily transfer
+#data from pdfs to an excel sheet (which was required by the customer)
+
 def Data(filename): 
     with open(filename, 'r') as g:
         numbers = g.readlines()
