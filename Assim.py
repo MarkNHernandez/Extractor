@@ -20,6 +20,8 @@ def Data(filename):
     fo.write(package)
     fo.close
 
+
+#read the data from the txt file and pass it on to be transformed
 with open('dir.txt', 'r') as d:
     for i in d:
         name = i.strip("\n")
